@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+.showcase {
+    width: 100%;
+    height: 95vh;
+    background-image: 
+    linear-gradient(black, blue),
+    url("https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+
+.showcase-title {
+    position: absolute;
+    font-family: 'Bungee Shade', cursive; 
+    font-size: 6rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    animation: color-change 3s infinite;
+
+}
+
+@keyframes color-change {
+    0% { color: black; }
+    50% { color: #E603FF; }
+    100% { color: black; }
+  }
+
+.title-bar {
+    border-bottom: 1px solid #000000;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    transition: top 0.3s;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.logo {
+    height: 11vh;
+    width: 15vh;
+    margin-top: 1%;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
+}
+
+.dropbtn {
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 1.5em;
+    font-family: 'Pridi', serif;
+    letter-spacing: 1px;
+    float: left;
+    text-align: left;
+    margin-left: 8%;
+    margin-top: 3vh;
+    top: 70%;
+}
+
+.dropbtn:hover {
+    color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 1em;
+    font-family: 'Pridi', serif;
+    top: 10%;
+    width: 10%;
+    text-align: center;
+    left: 2%;
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all .5s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+    color: #E603FF;
+}
+
+.main-area {
+    background-color: #FF9B36;
+    -webkit-box-shadow: inset 0px -35px 15px 5px #000000; 
+    box-shadow: inset 0px -35px 35px 45px #000000;
+}
+
+.show {display:block;}
+
+.jwill {
+    justify-content: center;
+    display: block;
+    padding-top: 20vh;
+    width: 80%;
+
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.ctnt {
+    color: white;
+    background-color: black;
+    font-family: 'Pridi', serif;
+    font-size: 20px;
+    width: 60%;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    
+}
+
+
+.ctnt2 {
+    color: white;
+    background-color: black;
+    font-family: 'Pridi', serif;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.ctnttxt {
+    padding: 25px;
+}
+
+.new-shit {
+    font-size: 10vh;
+    font-family: 'Bungee Shade', cursive; 
+    text-align: center;
+    padding-top: 35vh;
+    border-bottom-width: 5px;
+    border-bottom-style: double;
+    border-bottom-color: #000000;
+}
+
+@media only screen and (max-width : 700px) {
+    
+    .dropbtn {
+        font-size: 25px;
+        margin-top: 5%;
+    }
+
+    .dropdown-content {
+        width: 20%;
+    }
+
+    .ctnt {
+        width: 80vw;
+        font-size: 17px;
+    }
+
+    .showcase-title {
+        font-size: 3.2rem;
+    }
+
+    .new-shit {
+        font-size: 3rem;
+    }
+
+}    
