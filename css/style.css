@@ -184,11 +184,22 @@ html,body {
     border-bottom-color: #000000;
 }
 
+.new-shit2 {
+    font-size: 60px;
+    font-family: 'Bungee Shade', cursive; 
+    text-align: center;
+    padding-top: 25vh;
+    border-bottom-width: 5px;
+    border-bottom-style: double;
+    border-bottom-color: #000000;
+}
+
+
 @media only screen and (max-width : 700px) {
     
     .dropbtn {
-        font-size: 25px;
-        margin-top: 5%;
+        font-size: 5vw;
+        margin-top: 8%;
     }
 
     .dropdown-content {
@@ -197,19 +208,23 @@ html,body {
 
     .ctnt {
         width: 90%;
-        font-size: 17px;
+        font-size: 4vw;
     }
 
     .showcase-title {
-        font-size: 45px;
+        font-size: 10vw;
     }
 
     .new-shit {
-        font-size: 35px;
+        font-size: 9vw;
     }
 
     .jwill {
         width: 100%;
+    }
+
+    .new-shit2 {
+        font-size: 9vw;
     }
 
 }    
