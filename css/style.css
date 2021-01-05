@@ -32,7 +32,7 @@ html,body {
 .showcase-title {
     position: absolute;
     font-family: 'Bungee Shade', cursive; 
-    font-size: 6rem;
+    font-size: 90px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -79,7 +79,7 @@ html,body {
     color: white;
     background-color: black;
     border: none;
-    font-size: 1.5em;
+    font-size: 30px;
     font-family: 'Pridi', serif;
     letter-spacing: 1px;
     float: left;
@@ -99,7 +99,7 @@ html,body {
     background-color: black;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-size: 1em;
+    font-size: 20px;
     font-family: 'Pridi', serif;
     top: 10%;
     width: 10%;
@@ -175,7 +175,7 @@ html,body {
 }
 
 .new-shit {
-    font-size: 10vh;
+    font-size: 60px;
     font-family: 'Bungee Shade', cursive; 
     text-align: center;
     padding-top: 35vh;
@@ -196,16 +196,20 @@ html,body {
     }
 
     .ctnt {
-        width: 80vw;
+        width: 90%;
         font-size: 17px;
     }
 
     .showcase-title {
-        font-size: 3.2rem;
+        font-size: 45px;
     }
 
     .new-shit {
-        font-size: 3rem;
+        font-size: 35px;
+    }
+
+    .jwill {
+        width: 100%;
     }
 
 }    
