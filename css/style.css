@@ -21,7 +21,7 @@ html,body {
 
 .showcase {
     width: 100%;
-    height: 95vh;
+    height: 100vh;
     background-image: 
     linear-gradient(black, blue),
     url("https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -101,8 +101,8 @@ html,body {
     z-index: 1;
     font-size: 20px;
     font-family: 'Pridi', serif;
-    top: 10%;
-    width: 10%;
+    top: 110%;
+    width: 20%;
     text-align: center;
     left: 2%;
 
@@ -194,10 +194,10 @@ html,body {
     border-bottom-color: #000000;
 }
 
-@media only screen and (max-width : 700px) {
+@media (max-width : 700px) {
     
     .dropbtn {
-        font-size: 20px;
+        font-size: 30px;
         margin-top: 8%;
     }
 
@@ -207,16 +207,16 @@ html,body {
     }
 
     .ctnt {
-        width: 90%;
+        width: 100%;
         font-size: 21px;
     }
 
     .showcase-title {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .new-shit {
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .jwill {
