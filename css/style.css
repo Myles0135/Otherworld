@@ -215,6 +215,8 @@ html,body {
 
     .showcase-title {
         font-size: 45px;
+        text-align: center;
+        left: 48%;
     }
 
     .new-shit {
