@@ -194,29 +194,29 @@ html,body {
     border-bottom-color: #000000;
 }
 
-
 @media only screen and (max-width : 700px) {
     
     .dropbtn {
-        font-size: 5vw;
+        font-size: 20px;
         margin-top: 8%;
     }
 
     .dropdown-content {
         width: 20%;
+        font-size: 18px;
     }
 
     .ctnt {
         width: 90%;
-        font-size: 4vw;
+        font-size: 21px;
     }
 
     .showcase-title {
-        font-size: 10vw;
+        font-size: 50px;
     }
 
     .new-shit {
-        font-size: 9vw;
+        font-size: 45px;
     }
 
     .jwill {
@@ -224,7 +224,7 @@ html,body {
     }
 
     .new-shit2 {
-        font-size: 9vw;
+        font-size: 45px;
     }
 
 }    
