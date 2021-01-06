@@ -123,8 +123,8 @@ html,body {
 
 .main-area {
     background-color: #FF9B36;
-    -webkit-box-shadow: inset 0px -35px 15px 5px #000000; 
-    box-shadow: inset 0px -35px 35px 45px #000000;
+    -webkit-box-shadow: inset 0px -35px 15px 10px #000000; 
+    box-shadow: inset 0px -35px 35px 10px #000000;
 }
 
 .show {display:block;}
@@ -197,22 +197,24 @@ html,body {
 @media (max-width : 700px) {
     
     .dropbtn {
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 8%;
     }
 
     .dropdown-content {
         width: 30%;
         font-size: 18px;
+        top: 120%;
     }
 
     .ctnt {
-        width: 100%;
-        font-size: 21px;
+        width: 90%;
+        font-size: 20px;
+        margin-top: 20vh;
     }
 
     .showcase-title {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .new-shit {
@@ -220,7 +222,7 @@ html,body {
     }
 
     .jwill {
-        width: 100%;
+        width: 90%;
     }
 
     .new-shit2 {
